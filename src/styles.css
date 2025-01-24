@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.header {
+    background-color: #007aff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home-button {
+    background-color: #ffffff;
+    border: 1px solid #007aff;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    color: #007aff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home-button:hover {
+    background-color: #f0f0f0;
+}
+
+.sub-title {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    color: #007aff;
+    cursor: pointer;
+}
+
+.notification {
+    float: right;
+}
+
+.notification-badge {
+    color: red;
+}
+
+.clear-all-button, .save-button, .convert-button, .add-activity-button {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.clear-all-button:hover, .save-button:hover, .convert-button:hover, .add-activity-button:hover {
+    background-color: #005bb5;
+}
+
+/* New styles for alerts */
+.notifications-box {
+    display: flex;
+    flex-direction: column; /* Ensures vertical stacking */
+    gap: 10px; /* Space between each link */
+    margin-top: 20px;
+}
+
+.notification-link {
+    padding: 15px;
+    background-color: #007aff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center; /* Centers text in the link */
+}
+
+.notification-link:hover {
+    background-color: #005bb5;
+    transform: translateY(-2px);
+}
+
+.clear-all-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff3b30;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.clear-all-button:hover {
+    background-color: #c62828;
+}
+
+/* New styles for menu options */
+.menu-options {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-options li {
+    margin: 10px 0;
+}
+
+.menu-link {
+    display: block;
+    padding: 15px;
+    background-color: #007aff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.menu-link:hover {
+    background-color: #005bb5;
+    transform: translateY(-2px);
+}
